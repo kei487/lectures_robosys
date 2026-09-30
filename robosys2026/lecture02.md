@@ -47,14 +47,14 @@ style: |
 
 - 言語の特徴
     - コンパイル不要で書いたらすぐ実行できる
-    - ロボットは「動かして直す」の繰り返し $\rightarrow$ 試行錯誤の速さが重要<br />
+    - ロボットは「動かして直す」の繰り返し $\rightarrow$ 試行錯誤の速さが重要<br />　
 - ロボティクス分野での実績
     - 画像処理、機械学習、数値計算のライブラリが豊富
         - OpenCV、PyTorch、NumPyなど
-    - 速度が必要な部分だけC++で書き、Pythonで組み合わせるのが定番<br />
+    - 速度が必要な部分だけC++で書き、Pythonで組み合わせるのが定番<br />　
 - ROSでのサポート
     - ROS 2の公式対応言語はPythonとC++。チュートリアルもPythonが基本
-    - ROSのノードはシバンをつけたPythonスクリプト $\rightarrow$ 今日の後半<br />
+    - ROSのノードはシバンをつけたPythonスクリプト $\rightarrow$ 今日の後半<br />　
 - [人気](https://spectrum.ieee.org/top-programming-languages-2025)
 
 ---
@@ -192,7 +192,7 @@ style: |
 
 - 次のようなPythonのスクリプトを作ってみましょう
     - なにかリストを作成して、作ったリストについて、奇数番目の要素だけ出力
-      - スライスを利用する<br />
+      - スライスを利用する<br />　
     - さらに余裕があれば、出力する際になにか文字を付加
         - 例: 7ページ or 8ページ
 
@@ -226,7 +226,7 @@ style: |
     ```
     - 理由: プログラムを使う側は、インタプリタが何かを意識したくない
         - 中身の言語でコマンドの打ち方が変わるのは不便
-        - 適切なインタプリタを勝手に選んでほしい<br />
+        - 適切なインタプリタを勝手に選んでほしい<br />　
 - 可能とするには2つ作業が必要
     - 作業1: どのインタプリタで動かすかをファイルに書く（<span style="color:red">シバン</span>）
     - 作業2: Linuxにこのファイルを実行してよいと伝える（<span style="color:red">実行権限</span>）
@@ -316,18 +316,18 @@ style: |
 - 自分用のコマンドを1つ作り、パスの通ったコマンドとして実行できるようにする
     - 中身は簡単でよい（`print`、リスト、for文で十分）
     - 名前は本物のコマンドらしく: 拡張子なし、短い英単語
-    - 手順: シバン $\rightarrow$ `chmod +x` $\rightarrow$ `PATH=$PATH:~` $\rightarrow$ 別のディレクトリから名前だけで実行
+    - 手順: シバン $\rightarrow$ `chmod +x` $\rightarrow$ `PATH=$PATH:~` $\rightarrow$ 別のディレクトリから名前だけで実行<br />　
 - 例1：`todo`: やることリストを表示するコマンド
 - 例2：`cheat`: 忘れがちなコマンドのメモを示すコマンド
 ---
 
 ## まとめ
 - 前半: Python入門
-    - 変数、リスト、for文、スライス
+    - 変数、リスト、for文、スライス<br />　
 - 後半: 
     - <span style="color:red">シバン</span>: 1行目でインタプリタを指定（Linuxが読む、Pythonにはコメント）
     - <span style="color:red">パーミッション</span>: `x`がないと実行できない $\rightarrow$ `chmod +x`
-    - <span style="color:red">`PATH`</span>: ディレクトリの中からシェルがコマンドを探す
+    - <span style="color:red">`PATH`</span>: ディレクトリの中からシェルがコマンドを探す<br />　
 - 重要語句: インタプリタ、シバン、パーミッション、`PATH`、パスが通った
 - コマンド: `python3`、`which`、`mv`、`chmod`、`echo`
 
