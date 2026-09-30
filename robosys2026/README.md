@@ -1,7 +1,7 @@
 # ロボットシステム学 2026
 
 - [第1回: イントロダクション](https://tarolab-cit.github.io/lectures/robosys2026/lecture01.html)
-- 第2回: 
+- [第2回: Linux環境でのPythonプログラミング I](https://tarolab-cit.github.io/lectures/robosys2026/lecture02.html)
 - 第3回: 
 - 第4回: 
 - 第5回: 
