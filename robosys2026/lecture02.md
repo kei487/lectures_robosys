@@ -170,6 +170,7 @@ style: |
 ## リスト要素の範囲指定（スライス）
 
 - リストを部分的に取り出して新たにリストを作成できる
+    - `[start:stop:step]`
     ```python
     ### コードの例（list2.py） ###
     fruits = ["a", "b", "c", "d", "e" ]
@@ -328,6 +329,6 @@ style: |
     - <span style="color:red">シバン</span>: 1行目でインタプリタを指定（Linuxが読む、Pythonにはコメント）
     - <span style="color:red">パーミッション</span>: `x`がないと実行できない $\rightarrow$ `chmod +x`
     - <span style="color:red">`PATH`</span>: ディレクトリの中からシェルがコマンドを探す<br />　
-- 重要語句: インタプリタ、シバン、パーミッション、`PATH`、パスが通った
+- 重要語句: メソッド、インタプリタ、シバン、パーミッション、パスが通った
 - コマンド: `python3`、`which`、`mv`、`chmod`、`echo`
 
