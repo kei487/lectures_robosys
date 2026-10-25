@@ -5,7 +5,7 @@
 - [第3回: Linux環境でのPythonプログラミング II](https://tarolab-cit.github.io/lectures/robosys2026/lecture03.html)
 - [第4回: GitとGitHub](https://tarolab-cit.github.io/lectures/robosys2026/lecture04.html)
 - [第5回: 著作権とライセンス](https://tarolab-cit.github.io/lectures/robosys2026/lecture05.html)
-- 第6回: 
+- [第6回: ソフトウェアのテスト](https://tarolab-cit.github.io/lectures/robosys2026/lecture05.html)
 - 第7回: 
 - 第8回: 
 - 第9回: 
